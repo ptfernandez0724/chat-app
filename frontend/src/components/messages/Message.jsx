@@ -9,7 +9,7 @@ const Message = ({message}) => {
   const formattedTime = extractTime(message.createdAt);
   const chatClassName = fromMe ? "chat-end" : "chat-start";
   const profilePic = fromMe ? authUser.profilePic : selectedConversation.profilePic;
-  const bubbleBgColor = fromMe ? "bg-blue-500" : "bg-gray-800";
+  const bubbleBgColor = fromMe ? "bg-violet-500" : "bg-gray-600";
   return (
     <div className={`chat ${chatClassName}`}>
         <div className="chat-image avatar">
