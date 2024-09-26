@@ -19,7 +19,7 @@ const Login = () => {
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
         <div className="w-full p-6 rounded-lg shadow-md bg-gray-50 bg-clip-padding backdrop-filter">
             <h1 className="text-3xl font-semibold text-center text-gray-500">Login
-                <span className="text-violet-500"> Yappr</span>
+                <span className="text-violet-500"> Yapper</span>
             </h1>
 
             <form onSubmit={handleSubmit}>
